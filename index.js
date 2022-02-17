@@ -23,11 +23,11 @@ function makeSound(key) {
     
     switch (key) {
         case "w":
-            var crash = new Audio("sounds/crash.mp3");
+            var crash = new Audio("sonidos/crash.mp3");
             crash.play();
             break;
         case "a":
-            var tom4 = new Audio("sounds/tom-4.mp3");
+            var tom4 = new Audio("sonidos/tom-4.mp3");
             tom4.play();
            break;
 
@@ -37,22 +37,22 @@ function makeSound(key) {
            break;
 
         case "d":
-            var tom1 = new Audio("sounds/tom-1.mp3");
+            var tom1 = new Audio("sonidos/tom-1.mp3");
             tom1.play();
            break;
 
         case "j":
-            var tom2 = new Audio("sounds/tom-2.mp3");
+            var tom2 = new Audio("sonidos/tom-2.mp3");
             tom2.play();
            break;
 
         case "k":
-            var tom3 = new Audio("sounds/tom-3.mp3");
+            var tom3 = new Audio("sonidos/tom-3.mp3");
             tom3.play();
            break;
 
         case "l":
-            var kickbass = new Audio("sounds/kick-bass.mp3");
+            var kickbass = new Audio("sonidos/kick-bass.mp3");
             kickbass.play();
 
            break;
